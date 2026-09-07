@@ -52,4 +52,17 @@ function verPerros(imagenes, raza) {
     const tarjeta = document.createElement('div');
     tarjeta.className = 'tarjeta';
 
-    tarjeta.inne
+    tarjeta.innerHTML = `
+      <img src="${imagen}" alt="Perro de raza ${raza}">
+      <h3>${raza}</h3>
+      <p>Raza: ${raza}</p>
+    `;
+
+    resultados.appendChild(tarjeta);
+  });
+}
+
+function verMensaje(texto, esError = false) {
+  mensaje.textContent = texto;
+  mensaje.classList.toggle('error', esError);
+}
