@@ -1,4 +1,4 @@
-#  Huellitas - Taller #1
+## Huellitas - Taller #1
 
 Esta es una aplicación web llamada **Huellitas** que consume la
 **Dog CEO API** para buscar imágenes de perros filtrando por raza. El
